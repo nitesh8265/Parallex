@@ -1,0 +1,134 @@
+h1{
+    color: black;
+    font-variant: small-caps;
+}
+
+
+/* classselect */
+.para{
+    color:blue;
+    background-color: bisque;
+
+}
+
+/* idselect */
+#paragraph{
+    color:chartreuse;
+    background-color: black;
+}
+
+/* hoverchangecolortag */
+h1:hover{
+    color:rgb(0, 0, 0);
+}
+h1{
+   color: black;
+}
+a:hover{
+    color:black;
+    background-color: antiquewhite;
+}
+
+
+/* bodybackgroundcolorchange  */
+ body{
+    background-color: rgb(153, 117, 69);
+} 
+
+body{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url("nature.jpg"); */
+    /* background-image: url("nature.jpg"); */
+    /* background-repeat: no-repeat; */
+    background-position-x: right;
+    place-items: centre;
+}
+
+h1{
+
+    text-align: left;
+    
+    font-weight: 900;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* textdecoration */
+   text-decoration: underline;
+   text-decoration-color:red ;
+   text-decoration-style:  dotted;
+   text-decoration-line:dot;
+    
+   /* texttransrorm/ */
+/* 
+   text-transform: capitalize; */
+   text-transform:uppercase;
+   text-transform:inherit;
+
+
+   /* textshawod */
+   text-shadow: 2px ,2px
+
+
+
+
+}
+
+p{
+    
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-style: italic;
+font-variant: small-caps;
+/* spacingg */
+
+letter-spacing:2px;
+word-spacing: 10px;
+list-style: none;
+
+line-height: 2;
+
+
+
+.section-border{
+    width: 1000px;
+    color: aliceblue;
+    background-color: aqua;
+    border: 10px solid navy;
+}
+
+}
+a{
+    text-decoration: none;
+    color: red;
+
+
+}
+
+
+p::first-letter{
+    font-size: 50px ;
+    font-weight: 900;
+    color: deepskyblue;
+}
+.section-border{
+     width: 1000px;
+    color: aliceblue; 
+    background-color: rgb(85, 118, 118);
+    border: 10px solid navy;
+    border-top: 14px solid black;
+    border-bottom: 14px double pink;
+    border-right:14px ridge slateblue ;
+    border-left: 14px dotted orchid ;
+ 
+
+
+}
+div{
+    width: 400px;
+    height: 400px;
+    background-color:rgb(24, 39, 55) ;
+    border-radius: 50%;
+    border-radius: 100px 10px 225px 42px ; 
+   background-image: -moz-linear-gradient();
+}
+
